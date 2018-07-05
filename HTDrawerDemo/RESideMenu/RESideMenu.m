@@ -611,7 +611,7 @@
         CGFloat backgroundViewScale = 1.7f - (0.7f * delta);
         CGFloat menuViewScale = 1.5f - (0.5f * delta);
 
-        // 自定义
+        // Fix the problem of text scaling in Menu when closing Menu
         contentViewScale = 1.0f;
         backgroundViewScale = 1.0f;
         menuViewScale = 1.0f;
